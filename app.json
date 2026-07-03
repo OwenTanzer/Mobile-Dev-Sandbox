@@ -34,7 +34,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png",
-      "backgroundColor": "#0e0e0e"
+      "backgroundColor": "#0e0e0e",
+      "output": "single"
     }
   }
 }

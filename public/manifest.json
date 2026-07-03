@@ -1,0 +1,30 @@
+{
+  "short_name": "I Ching",
+  "name": "I Ching",
+  "start_url": ".",
+  "id": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#0e0e0e",
+  "background_color": "#0e0e0e",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512-maskable.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ]
+}
