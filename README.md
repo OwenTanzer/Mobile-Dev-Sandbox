@@ -2,6 +2,18 @@
 
 A minimal I Ching hexagram-casting app, built with Expo/React Native.
 
+## Use it as a web app (recommended for iPhone-only use, no computer or Apple account needed)
+
+This is set up as an installable PWA and auto-deploys to GitHub Pages on every push to this branch via `.github/workflows/deploy-web.yml`.
+
+One-time setup: in this repo's **Settings > Pages**, set "Build and deployment" source to **GitHub Actions**. After that, every push publishes automatically.
+
+Once it's live, on your iPhone:
+1. Open the Pages URL in Safari (Settings > Pages will show it, typically `https://<username>.github.io/<repo>/`).
+2. Tap the Share icon > **Add to Home Screen**.
+
+You'll get a home-screen icon that opens full-screen with no Safari chrome, works offline after the first load (service worker caches it), and updates itself whenever you're online and a new version is deployed.
+
 ## Run it in Expo Go
 
 1. Install [Expo Go](https://expo.dev/go) on your phone (iOS App Store / Google Play).
